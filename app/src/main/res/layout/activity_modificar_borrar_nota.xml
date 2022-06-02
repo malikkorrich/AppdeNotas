@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/ET_Titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introduzca Tiutlo"
+        android:textSize="12dp"
+        android:inputType="text"
+        android:maxLines="1"
+        android:layout_marginEnd="8dp"
+        android:padding="12dp"/>
+
+
+    <Spinner
+        android:id="@+id/SP_Categoria"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:padding="12dp"
+        android:textSize="12sp" />
+
+
+    <EditText
+        android:id="@+id/ET_Contenido"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="clip_horizontal"
+        android:hint="Introduzca Contenido"
+        android:inputType="textMultiLine"
+        android:padding="12dp"
+        android:textSize="12sp" />
+
+</LinearLayout>
